@@ -16,7 +16,7 @@ const Projects = () => {
       className="w-full flex flex-col justify-center items-center mt-40"
     >
       <h3 className="text-4xl mb-5 lg:mb-10 md:text-6xl font-bold text-transparent bg-gradient-to-r from-gray-200/90 to-gray-400/90 bg-clip-text">
-        WHAT I&#39;VE BUILT RECENTLY
+        WHAT I&#39;VE BUILT
       </h3>
 
       <section className="p-8 w-full">
