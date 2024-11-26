@@ -15,11 +15,11 @@ const HeroSection = () => {
           Hi, I&#39;m Ali Ahmad.
         </h1>
         <h2 className="text-center lg:text-justify text-lg md:text-xl text-gray-300 mb-6 max-w-2xl leading-relaxed">
-          A Senior Frontend Developer with over 3 years of experience creating
+          A Frontend Developer with over 3 years of experience creating
           immersive and responsive web applications. I specialize in React,
           Next.js, and cutting-edge frontend technologies, including Three.js
           for 3D experiences. My passion lies in crafting high-quality user
-          interfaces that merge performance with elegance.{" "}
+          interfaces that merge performance with elegance.
         </h2>
 
         <button
