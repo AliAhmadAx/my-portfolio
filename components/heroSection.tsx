@@ -12,7 +12,7 @@ const HeroSection = () => {
     <div className="w-full flex flex-col lg:flex-row space-y-10 lg:space-y-0 items-center justify-center">
       <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-center lg:text-start">
-          Hi, I'm Ali Ahmad.
+          Hi, I&#39;m Ali Ahmad.
         </h1>
         <h2 className="text-center lg:text-justify text-lg md:text-xl text-gray-300 mb-6 max-w-2xl leading-relaxed">
           A Senior Frontend Developer with over 3 years of experience creating
