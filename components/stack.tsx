@@ -10,7 +10,7 @@ import { TbBrandThreejs } from "react-icons/tb";
 
 const Stack = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
+    <div className="w-full flex flex-col justify-center items-center mt-40">
       <h3 className="text-4xl mb-10 lg:mb-20 md:text-6xl font-bold text-transparent bg-gradient-to-r from-gray-200/90 to-gray-400/90 bg-clip-text">
         MY TOOLBOX
       </h3>

@@ -13,14 +13,14 @@ const Projects = () => {
   return (
     <div
       id="recent-projects"
-      className="w-full flex flex-col justify-center items-center"
+      className="w-full flex flex-col justify-center items-center mt-40"
     >
-      <h3 className="text-4xl mb-5 lg:mb-20 md:text-6xl font-bold text-transparent bg-gradient-to-r from-gray-200/90 to-gray-400/90 bg-clip-text">
+      <h3 className="text-4xl mb-5 lg:mb-10 md:text-6xl font-bold text-transparent bg-gradient-to-r from-gray-200/90 to-gray-400/90 bg-clip-text">
         WHAT I&#39;VE BUILT RECENTLY
       </h3>
 
       <section className="p-8 w-full">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.map((data, index) => {
             return (
               <div key={index} className="w-full flex flex-col">
@@ -76,7 +76,7 @@ const Projects = () => {
             href={
               "https://drive.google.com/drive/folders/1mSsgjPlPRPr7JrPP_n6PxCbTccDEzaXM?usp=drive_link"
             }
-            className="text-gray-200 text-lg hover:underline flex items-center"
+            className="flex items-center justify-center w-fit border border-white/40 hover:bg-white/20 text-white font-light py-3 px-6 rounded-md transition-all duration-500 ease-in-out"
           >
             MORE PROJECTS <BsArrowRight className="ml-2" />
           </Link>
