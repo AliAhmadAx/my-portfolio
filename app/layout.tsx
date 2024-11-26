@@ -48,7 +48,13 @@ export default function RootLayout({
               <Link href={"mailto:ali.ali.ahmad22@gmail.com"} target="_blank">
                 <IoIosMail className="cursor-pointer hover:text-white/80" />
               </Link>
-              <FaFileAlt className="cursor-pointer hover:text-white/80" />
+
+              <Link
+                href={"/assets/resume/AliAhmad.pdf"}
+                download={"ALI_AHMAD_RESUME.pdf"}
+              >
+                <FaFileAlt className="cursor-pointer hover:text-white/80" />
+              </Link>
             </div>
           </header>
           <main className="flex-1 p-6">{children}</main>
