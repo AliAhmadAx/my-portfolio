@@ -8,7 +8,7 @@ const Contact = () => {
         CONTACT ME
       </h3>
 
-      <div className="w-10/12 grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <div className="w-10/12 grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 gap-10 text-white">
         <Link href={"mailto:ali.ali.ahmad22@gmail.com"} target="_blank">
           <div className="w-fit hover:bg-white/20 cursor-pointer px-10 h-52 flex flex-col items-center justify-center border rounded-lg">
             <FaMailBulk className="text-[100px] mb-3" />
