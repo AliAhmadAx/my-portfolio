@@ -15,7 +15,7 @@ const Stack = () => {
         MY TOOLBOX
       </h3>
 
-      <div className="w-10/12 grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+      <div className="w-10/12 grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 text-white">
         <div className="w-52 h-52 flex flex-col items-center justify-center border rounded-lg">
           <FaReact className="text-[100px]" />
           <p className="text-2xl">React JS</p>
